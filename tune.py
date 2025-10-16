@@ -148,7 +148,7 @@ def objective(trial):
     trial.set_user_attr("test_mae", test_mae)
     trial.set_user_attr("test_mse", test_mse)
 
-
+# 晖爷的代码
 
     # 清理 GPU 缓存
     torch.cuda.empty_cache()

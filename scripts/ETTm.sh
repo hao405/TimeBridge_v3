@@ -90,7 +90,7 @@ root=./dataset
 
 alpha=0.35
 data_name=ETTm2
-for pred_len in 96 192 336
+for pred_len in 96 192 336 720
 do
   CUDA_VISIBLE_DEVICES=$GPU \
   python -u tune.py \
